@@ -1,3 +1,4 @@
+![Gadget Heaven Application Screenshot](/gadget.PNG)
 [Live Deploy Link: ](https://gadget_heaven_simple_react_assignment.surge.sh/)
 
 ## The technology i used
