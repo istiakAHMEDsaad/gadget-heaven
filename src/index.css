@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Sora', 'sans-serif';
+}
+
+@layer components {
+  body{
+    @apply bg-gray-100
+  }
+  .category-btn {
+    @apply px-4 py-2 bg-gray-200 text-slate-700 text-center rounded-full hover:bg-ph-purple hover:text-white active:scale-95 transition-all;
+  }
+  .active-now{
+    @apply px-4 py-2 bg-ph-purple rounded-full text-white font-bold text-center;
+  }
+  .cart-btn{
+    @apply border px-7 py-2 rounded-full hover:bg-white hover:text-ph-purple font-bold transition-all;
+  }
+  .wish-btn{
+    @apply border px-4 py-2 rounded-full hover:bg-white hover:text-ph-purple font-bold transition-all;
+  }
+}
